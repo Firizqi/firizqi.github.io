@@ -7,7 +7,7 @@
     <script>
 		function Corleone(nj) {
 		var i;
-		var x = document.getElementsByClassName("sicily");
+		var x = document.getElementsByClassName("bar");
 		for (i = 0; i < x.length; i++){
 		x[i].style.display = "none";
 		}
@@ -17,35 +17,22 @@
     <body>
         <div class="w3-navbar w3-center w3-card-4 button">
             <a class="w3-bar-item w3-button w3-card-4" onclick="Corleone('Home')"><b>Home</b></a>
-            <a class="w3-bar-item w3-button" onclick="Corleone('NewJeans')"><b>New Jeans</b></a>
+            <a class="w3-bar-item w3-button" onclick="Corleone('Corleone Family')"><b>Corleone Family</b></a>
             <div class="w3-dropdown-hover">
                 <a class="w3-button"><b>Corleone Boys</b></a>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <a class="w3-bar-item w3-button" onclick="Corleone ('Minji')"><b>Minji</b></a>
-                    <a class="w3-bar-item w3-button" onclick="Corleone ('Hanni')"><b>Hanni</b></a>
-                    <a class="w3-bar-item w3-button" onclick="Corleone ('Haerin')"><b>Haerin</b></a>
-                    <a class="w3-bar-item w3-button" onclick="Corleone ('Hyein')"><b>Hyein</b></a>
-                    <a class="w3-bar-item w3-button" onclick="Corleone ('Danielle')"><b>Danielle</b></a>
+                    <a class="w3-bar-item w3-button" onclick="Corleone ('Vito')"><b>Vito</b></a>
+                    <a class="w3-bar-item w3-button" onclick="Corleone ('Sonny')"><b>Sonny</b></a>
+                    <a class="w3-bar-item w3-button" onclick="Corleone ('Tom')"><b>Tom</b></a>
+                    <a class="w3-bar-item w3-button" onclick="Corleone ('Fredo')"><b>Fredo</b></a>
+                    <a class="w3-bar-item w3-button" onclick="Corleone ('Michael')"><b>Michael</b></a>
             <a class="w3-bar-item w3-button w3-card-4" onclick="Corleone('About Me')"><b>About Me</b></a>
                 </div>
             </div>
         </div>
-        <div id="Saya" class="korea w3-animate-left" style="display: none;">
-            <div class="w3-col s4 w3-animate-left" style="margin-left: 10%;">
-                <img src="Nafhan-removebg-preview.png">
-            </div>
-            <div class="w3-col s4 w3-animate-right">
-                <div class="w3-card-4 w3-blue w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 10%; margin-top: 30%;">
-                    <div class="w3-container w3-left-align">
-                        <h1 class="w3-xlarge" style="font-weight: 450; margin-left: 5%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%">
-                            <b>Nama : Nafhan Zahrah Apriawan<br> Nim  : 10123084<br> Kelas : IF 3<br> Bias : Hanni Pham<br> Instagram :</b> 
-                        </h1>
-                        <a href="https://www.instagram.com/nfhn.a"><img src="instagram.png" style="width: 20%; margin-left: 5%; margin-bottom: 5%;"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="NewJeans" class="korea" style="display: none;">
+        <div id="Home" class="bar w3-animate-top w3-center" style="display: block;">
+            <h1><b>Corleone Family</b></h1>
+        <div id="NewJeans" class="bar" style="display: none;">
             <div class="w3-col s4 w3-animate-left" style="margin-left: 10%;">
                 <img src="Newjeans3RBG.png">
             </div>
@@ -67,10 +54,8 @@
                 </div>
             </div>
         </div>
-        <div id="Beranda" class="korea w3-animate-top w3-center" style="display: block;">
-            <h1><b>Welcome Bunnies</b></h1>
         </div>
-        <div id="Hanni" class="korea w3-animate-left" style="display: none;">
+        <div id="Hanni" class="bar w3-animate-left" style="display: none;">
             <img src="Hanni-removebg-preview.png" style="margin-left: 10%;">
             <div class="w3-col s4 w3-animate-right">
                 <div class="w3-card-4 w3-blue w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 30%; margin-top: 30%;">
@@ -89,7 +74,22 @@
                 </div>
             </div>
         </div>
-        <div id="Minji" class="korea w3-animate-left" style="display: none;">
+        <div id="About Me" class="bar w3-animate-left" style="display: none;">
+            <div class="w3-col s4 w3-animate-left" style="margin-left: 10%;">
+                <img src="Nafhan-removebg-preview.png">
+            </div>
+            <div class="w3-col s4 w3-animate-right">
+                <div class="w3-card-4 w3-blue w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 10%; margin-top: 30%;">
+                    <div class="w3-container w3-left-align">
+                        <h1 class="w3-xlarge" style="font-weight: 450; margin-left: 5%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%">
+                            <b>Nama : Nafhan Zahrah Apriawan<br> Nim  : 10123084<br> Kelas : IF 3<br> Bias : Hanni Pham<br> Instagram :</b> 
+                        </h1>
+                        <a href="https://www.instagram.com/nfhn.a"><img src="instagram.png" style="width: 20%; margin-left: 5%; margin-bottom: 5%;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Minji" class="bar w3-animate-left" style="display: none;">
             <img src="MinjiRBG.png" style="margin-left: 10%;">
             <div class="w3-col s4 w3-animate-right">
                 <div class="w3-card-4 w3-blue w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 30%; margin-top: 30%;">
@@ -108,7 +108,7 @@
                 </div>
             </div>
         </div>
-        <div id="Haerin" class="korea w3-animate-left" style="display: none;">
+        <div id="Haerin" class="bar w3-animate-left" style="display: none;">
             <img src="Haering-removebg-preview.png" style="margin-left: 10%;">
             <div class="w3-col s4 w3-animate-right">
                 <div class="w3-card-4 w3-blue w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 30%; margin-top: 30%;">
@@ -127,7 +127,7 @@
                 </div>
             </div>
         </div>
-        <div id="Hyein" class="korea w3-animate-left" style="display: none;">
+        <div id="Hyein" class="bar w3-animate-left" style="display: none;">
             <img src="Hyein-removebg-preview.png" style="margin-left: 10%;">
             <div class="w3-col s4 w3-animate-right">
                 <div class="w3-card-4 w3-blue w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 30%; margin-top: 30%;">
@@ -146,7 +146,7 @@
                 </div>
             </div>
         </div>
-        <div id="Danielle" class="korea w3-animate-left" style="display: none;">
+        <div id="Danielle" class="bar w3-animate-left" style="display: none;">
             <img src="Danielle-removebg-preview.png" style="margin-left: 10%;">
             <div class="w3-col s4 w3-animate-right">
                 <div class="w3-card-4 w3-blue w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 30%; margin-top: 30%;">
