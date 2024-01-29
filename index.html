@@ -14,10 +14,40 @@
 		document.getElementById(nj).style.display = "block";
 		}
 	</script>
+    <style>
+        body {
+            background-image: url(Background.png);
+            background-size: 100% 750px;
+            font-family: 'Brush Script', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+        }
+        .button{
+            font-size: large;
+            font-family: 'Brush Script', 'Brush Script MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: larger;
+        }
+        h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: black;
+        }
+        p{
+            color: black;
+            font-size: large;
+        }
+        .profil{
+            color: black;
+        }
+        .button{
+            color: whitesmoke;
+        }
+        .newjeans{
+            width: 25%;
+        }
+    </style>
     <body>
         <div class="w3-navbar w3-center w3-card-4 button">
-            <a class="w3-bar-ite/m w3-button w3-card-4" onclick="Corleone('Home')"><b>Home</b></a>
-            <a class="w3-bar-item w3-button" onclick="Corleone('Corleone Family')"><b>Corleone Family</b></a>
+            <a class="w3-bar-item w3-button w3-card-4" onclick="Corleone('Home')"><b>Home</b></a>
+            <a class="w3-bar-item w3-button" onclick="Corleone('The Godfather')"><b>The Godfather</b></a>
             <div class="w3-dropdown-hover">
                 <a class="w3-button"><b>Corleone Boys</b></a>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -31,10 +61,10 @@
             </div>
         </div>
         <div id="Home" class="bar w3-animate-top w3-center" style="display: block;">
-            <h1><b>Corleone Family</b></h1>
-        <div id="Corleone Family" class="bar" style="display: none;">
+            <h1 style="color:whitesmoke;"><b>Corleone Family</b></h1>
+        <div id="The Godfather" class="bar" style="display: none;">
             <div class="w3-col s4 w3-animate-left" style="margin-left: 10%;">
-                <img src="Boys.jpg">
+                <img src="Poster.jpg">
             </div>
             <div class="w3-col s4 w3-animate-right">
                 <div class="w3-card-4 w3-grey w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 10%; margin-top: 30%;">
@@ -66,6 +96,7 @@
                                     Name  : Vito Corleone (Andolini) <br>
                                     Born  : December 7, 1891 - July 29, 1955 <br>
                                     Title : Don, The Godfather <br>
+                                    <br>
                                     Vito Corleone was the founder and Don of the Corleone family. Vito was known to be very loyal and generous to his friends and allies, but would always get vengeance if betrayed. He was also a very loving and caring father and husband to his family.
                                 </b>
                             </p>
@@ -85,6 +116,7 @@
                                     Name  : Santino "Sonny" Corleone, Sr. <br>
                                     Born  : 1916 - 1948 <br>
                                     Title : Caporegime, Underboss, Acting Don <br>
+                                    <br>
                                     Santino "Sonny" Corleone, Sr. was the eldest son of the Vito Corleone and the acting Don of the Corleone family. Though he was fiercely loyal to his family, he was known for his violent temper and rash decisions.
                                 </b>
                             </p>
@@ -104,7 +136,8 @@
                                     Name  : Thomas "Tom" Hagen <br>
                                     Born  : 1916 - 1970s <br>
                                     Title : Consigliere, Acting Don <br>
-                                    Thomas "Tom" Hagen was the consigliere and head lawyer of the Corleone family, as well as being the adoptive son of Vito and Carmela Corleone and the adoptive brother of Sonny, Fredo, Michael, and Connie Corleone. Alongside Michael, he is the only child of Vito Corleone to have gone to college.
+                                    <br>
+                                    Thomas "Tom" Hagen was the consigliere and head lawyer of the Corleone family, as well as being the adoptive son of Vito Corleone. Alongside Michael, he is the only child of Vito Corleone to have gone to college.
                                 </b>
                             </p>
                         </h1>
@@ -123,6 +156,7 @@
                                     Name  : Frederico "Fredo" Corleone <br>
                                     Born  : 1919 - 1959 <br>
                                     Title : Underboss <br>
+                                    <br>
                                     Frederico "Fredo" Corleone was the second oldest of the Corleone brothers. As an adult he was seen as the weakest of the three brothers and was given relatively unimportant business to run. 
                                 </b>
                             </p>
@@ -142,7 +176,8 @@
                                     Name  : Michael Corleone <br>
                                     Born  : March 23, 1920 - 1997 <br>
                                     Title : Don, The Godfather <br>
-                                    Michael Corleone was the Don of the Corleone family after his father Vito Corleone stepped down. When Vito dies in 1955, and Michael officially becomes Don
+                                    <br>
+                                    Michael Corleone was the Don of the Corleone family after his father Vito Corleone stepped down. When Vito dies in 1955, and Michael officially becomes Don.
                                 </b>
                             </p>
                         </h1>
@@ -152,13 +187,15 @@
         </div>
         <div id="About Me" class="bar w3-animate-left" style="display: none;">
             <div class="w3-col s4 w3-animate-left" style="margin-left: 10%;">
-                <img src="Nafhan-removebg-preview.png">
+                <img src="Firizqi.png">
             </div>
             <div class="w3-col s4 w3-animate-right">
                 <div class="w3-card-4 w3-grey w3-hover w3-round-xlarge transition" style="width: 100%; margin-left: 10%; margin-top: 30%;">
                     <div class="w3-container w3-left-align">
                         <h1 class="w3-xlarge" style="font-weight: 450; margin-left: 5%; margin-right: 10%; margin-top: 5%; margin-bottom: 5%">
-                            <b>Nama : Daffa Firizqi<br> Nim  : 10123086<br> Kelas : IF-3<br>
+                            <b>Nama : Daffa Firizqi<br>
+                               NIM  : 10123086<br>
+                               Kelas : IF-3<br>
                         </h1>
                     </div>
                 </div>
